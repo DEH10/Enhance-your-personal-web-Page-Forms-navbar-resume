@@ -1,11 +1,10 @@
-/* contact.css */
-
 body {
     background-color: black;
+    color: white;
 }
 
 nav {
-    background-color: Grey;
+    background-color: grey;
     position: fixed;
     left: 0;
     right: 0;
@@ -31,26 +30,26 @@ nav li {
 }
 
 nav li a {
-    color: Gold;
+    color: gold;
     text-decoration: none;
 }
 
-h1 {
+label {
     color: white;
 }
 
-label[for="name"] {
-    color: blue;
+input[type="text"],
+input[type="email"],
+textarea {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
 }
 
-label[for="email"] {
-    color: green;
-}
-
-label[for="subject"] {
-    color: orange;
-}
-
-label[for="message"] {
-    color: red;
+input[type="submit"] {
+    background-color: gold;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
 }
