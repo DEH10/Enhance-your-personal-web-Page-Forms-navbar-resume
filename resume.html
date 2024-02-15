@@ -3,33 +3,53 @@
 <head>
     <title>Resume</title>
     <style type="text/css">
-    
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            padding-top: 50px; /* Add padding to accommodate the fixed navigation bar */
+        }
+
         nav {
             background-color: Grey;
-            position: fixed; 
+            position: fixed;
             left: 0;
             right: 0;
-            top: 5px;
-            height: 30px;
+            top: 0;
+            height: 50px; /* Increased height to provide more space for navigation */
             display: flex;
             align-items: center;
             box-shadow: 0 0 25px 0 black;
+            z-index: 999; /* Ensure navigation bar is on top of other content */
         }
+
         nav * {
-            display: flex;
+            display: inline;
         }
+
         nav ul {
             display: flex;
             justify-content: center;
             width: 100%;
+            list-style: none; /* Remove default list styles */
+            padding: 0; /* Remove default padding */
         }
-           
+
         nav li {
-            margin: 20px;
+            margin: 0 20px; /* Adjust margin */
         }
+
         nav li a {
             color: Gold;
             text-decoration: none;
+        }
+
+        h1, h2 {
+            color: Grey;
+        }
+
+        p, ul {
+            color: white;
         }
     </style>
 </head>
@@ -45,13 +65,12 @@
     <h1>Daniel Humphrey</h1>
     <p>Pittsburgh, PA | (004)004-0004| dehumphrey@live.carlow.edu</p>
     <h2>Education</h2>
-    <p>Carlow University, Pittsburgh, PA<br>
+    <p>Carlow University, Pittsburgh, PA</p>
     <p>Bachelor of Science in Business Management, May 2024</p>
-    <p>Community College of Allegheny County, Wexford, PA<br>
+    <p>Community College of Allegheny County, Wexford, PA</p>
     <p>Associate of Science in Liberal Arts, 2021</p>
-    <p>University of Pittsburgh Swanson School of Engineering, Pittsburgh, PA<br>
-        
-        <p>Certificate in Basic Machining, CNC programming & operations, 2018</p>
+    <p>University of Pittsburgh Swanson School of Engineering, Pittsburgh, PA</p>
+    <p>Certificate in Basic Machining, CNC programming & operations, 2018</p>
     <h2>Google IT Certifications</h2>
     <ul>
         <li>Cybersecurity Specialization, 2023</li>
@@ -59,24 +78,19 @@
     </ul>
     <h2>Experience</h2>
     <ul>
-     <p>Intern Web Developer</p> 
-<p>Innovatech Solutions, New York, NY | June 2022 - August 2022</p>
-<li> Collaborated with a team of 5 developers in the creation of a responsive web application
-for client management, enhancing user engagement by 30%.</li>
-<li>Implemented front-end features using HTML, CSS, and React, ensuring seamless user
-experience across various devices.</li>
-<li>Participated in agile development cycles, including weekly sprints and stand-ups,
-contributing to timely project delivery.</li>
-<li>Conducted thorough testing and debugging of web applications, leading to a 25%
-reduction in reported issues.</li>
-        <br>
-<p>Junior Web Developer (Part-Time)</p> 
-<p>TechStart Inc., San Francisco, CA | September 2022 - Present</p> 
-<li>Developed and maintained an educational platform used by over 10,000 students, focusing on intuitive UI and robust functionality.</li>
-<li>Utilized JavaScript and Angular to create interactive features, such as quizzes and progress tracking, enhancing user engagement.</li>
-<li>Collaborated with backend developers to implement features like user authentication and data storage with Firebase.</li>
-<li>Adopted responsive web design principles to ensure the platform's optimal performance on various screen sizes and devices.</li>
-<li>Actively participated in code reviews, applying best practices to ensure high-quality and maintainable </li>
+        <li>Intern Web Developer</li>
+        <li>Innovatech Solutions, New York, NY | June 2022 - August 2022</li>
+        <li>Collaborated with a team of 5 developers in the creation of a responsive web application for client management, enhancing user engagement by 30%.</li>
+        <li>Implemented front-end features using HTML, CSS, and React, ensuring seamless user experience across various devices.</li>
+        <li>Participated in agile development cycles, including weekly sprints and stand-ups, contributing to timely project delivery.</li>
+        <li>Conducted thorough testing and debugging of web applications, leading to a 25% reduction in reported issues.</li>
+        <li>Junior Web Developer (Part-Time)</li>
+        <li>TechStart Inc., San Francisco, CA | September 2022 - Present</li>
+        <li>Developed and maintained an educational platform used by over 10,000 students, focusing on intuitive UI and robust functionality.</li>
+        <li>Utilized JavaScript and Angular to create interactive features, such as quizzes and progress tracking, enhancing user engagement.</li>
+        <li>Collaborated with backend developers to implement features like user authentication and data storage with Firebase.</li>
+        <li>Adopted responsive web design principles to ensure the platform's optimal performance on various screen sizes and devices.</li>
+        <li>Actively participated in code reviews, applying best practices to ensure high-quality and maintainable.</li>
     </ul>
     <h2>Skills</h2>
     <ul>
@@ -88,3 +102,4 @@ reduction in reported issues.</li>
         <li>Leadership</li>
     </ul>
 </body>
+</html>
