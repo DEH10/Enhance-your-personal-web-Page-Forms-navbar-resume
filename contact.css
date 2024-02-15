@@ -1,3 +1,5 @@
+/* contact.css */
+
 body {
     background-color: black;
     color: white;
@@ -34,8 +36,20 @@ nav li a {
     text-decoration: none;
 }
 
-label {
-    color: white;
+label[for="name"] {
+    color: blue; /* Change the color for the name label to blue */
+}
+
+label[for="email"] {
+    color: green; /* Change the color for the email label to green */
+}
+
+label[for="subject"] {
+    color: orange; /* Change the color for the subject label to orange */
+}
+
+label[for="message"] {
+    color: red; /* Change the color for the message label to red */
 }
 
 input[type="text"],
