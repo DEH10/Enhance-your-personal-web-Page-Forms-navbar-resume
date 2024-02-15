@@ -2,7 +2,7 @@
 
 body {
     height: 125vh;
-    top: 80px;
+    margin-top: 80px; /* Corrected from 'top: 80px;' */
     padding: 30px;
     background-size: cover;
     background-color: black;
@@ -38,4 +38,12 @@ nav li {
 nav li a {
     color: Gold;
     text-decoration: none;
+}
+
+h1 {
+    color: blue; /* Change the color for the heading to blue */
+}
+
+p {
+    color: red; /* Change the color for the paragraph text to red */
 }
