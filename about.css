@@ -11,7 +11,7 @@ body {
 }
 
 nav {
-    background-color: grey; /* Dark gray navbar background */
+    background-color: grey; 
     position: fixed;
     left: 0;
     right: 0;
@@ -42,13 +42,18 @@ nav li a {
 }
 
 h1 {
-    color: yellow; /* Change the color for the heading to yellow */
+    color: Red;
 }
 
 h3 {
-    color: White; /* Change the color for the subheadings to blue */
+    color: White; 
+}
+.about-me {
+    color: Blue; 
 }
 
-p {
-    color: mediumseagreen; /* Change the color for the paragraph text to medium sea green */
+.my-interest {
+    color: mediumseagreen; 
 }
+
+
